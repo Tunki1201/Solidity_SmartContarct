@@ -1,7 +1,7 @@
 
-# Solidity_Olympus_SmartContract
+# Solidity_Tunki_SmartContract
 
-# Ω Olympus Smart Contracts
+# Ω Tunki_SmartContract
 
 
 ##  🔧 Setting up Local Development
@@ -27,8 +27,8 @@ Local Setup Steps:
 |:-------------:|:-------------------------------------------------------------------------------------------------------------------:|-------|
 |PIP            |[0x383518188c0c6d7730d91b2c03a03c837814a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)| Main Token Contract|
 |sPIP           |[0x31932e6e45012476ba3a3a4953cba62aee77fbbe](https://etherscan.io/address/0x31932e6e45012476ba3a3a4953cba62aee77fbbe)| Staked Pip|
-|Treasury       |[0x31F8Cc382c9898b273eff4e0b7626a6987C846E8](https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8)| Olympus Treasury holds all the assets        |
-|OlympusStaking |[0xfd31c7d00ca47653c6ce64af53c1571f9c36566a](https://etherscan.io/address/0xfd31c7d00ca47653c6ce64af53c1571f9c36566a)| Main Staking contract responsible for calling rebases every 2200 blocks|
+|Treasury       |[0x31F8Cc382c9898b273eff4e0b7626a6987C846E8](https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8)| Tunki Treasury holds all the assets        |
+|TunkiStaking |[0xfd31c7d00ca47653c6ce64af53c1571f9c36566a](https://etherscan.io/address/0xfd31c7d00ca47653c6ce64af53c1571f9c36566a)| Main Staking contract responsible for calling rebases every 2200 blocks|
 |StakingHelper  |[0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d](https://etherscan.io/address/0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d)| Helper Contract to Stake with 0 warmup |
 |Aave Allocator |[0x0e1177e47151Be72e5992E0975000E73Ab5fd9D4](https://etherscan.io/address/0x0e1177e47151Be72e5992E0975000E73Ab5fd9D4)| Sends DAI from the treasury to Aave (via deposit) in exchange for aDAI and holds it. See [Allocator Guide](#allocator-guide)|
 |Convex Allocator |[0x3dF5A355457dB3A4B5C744B8623A7721BF56dF78](https://etherscan.io/address/0x3dF5A355457dB3A4B5C744B8623A7721BF56dF78)| Sends FRAX from the treasury to Convex and accumulates trading fees, CRV and CVX. See [Allocator Guide](#allocator-guide)|
